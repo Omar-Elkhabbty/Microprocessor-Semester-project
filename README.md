@@ -112,65 +112,7 @@ The system provides an intuitive interface triggered by push buttons:
 
 | **Button 4** | **Memory Minimum (`T_min_all`)**: Absolute minimum temperature stored in memory. |
 
-
-
-## 📁 Repository Structure
-
-
-
-```
-
-.
-
-├── src/                    # Source code files (Embedded C / Assembly)
-
-├── simulation/             # Proteus design files (.pdsprj / .DSN)
-
-├── schematics/             # Circuit diagrams & pin configuration layout
-
-├── docs/                   # Academic report, documentation, and flowcharts
-
-└── README.md               # Project documentation
-
-```
-
-
-
-## 🚀 Getting Started & Simulation
-
-
-
-1. **Clone the Repository**:
-
-   ```bash
-
-   git clone https://github.com/Omar-Elkhabbty/Microprocessor-Semester-project.git
-
-   ```
-
-
-
-2. **Open Simulation**:
-
-   * Launch **Proteus Design Suite**.
-
-   * Open the schematic project file located inside the `simulation/` directory.
-
-
-
-3. **Compile Source Code**:
-
-   * Load the firmware source files in your compiler (e.g., Keil / MPLAB / Atmel Studio / MASM).
-
-   * Build the project to generate the corresponding `.hex` machine file.
-
-
-
-4. **Run Simulation**:
-
-   * Double-click the processor model in Proteus and assign the compiled `.hex` file.
-
-   * Click **Play** to start the simulation and interact with the push buttons.
+| **Button 5** | **Memory Clear (`T_clear_all`)**: Clear all data stored in memory. |
 
 
 
